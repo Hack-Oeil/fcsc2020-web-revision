@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  revision:
+    image: anssi/fcsc2020-web-revision:latest
+    ports:
+      - "80:8000"
